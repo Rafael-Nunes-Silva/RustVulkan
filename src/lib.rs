@@ -22,7 +22,7 @@ impl ApplicationHandler for App {
                 .unwrap(),
         );
 
-        // self.graphics_system = Some(GraphicsSystem::new(self.window.as_ref().unwrap()));
+        self.graphics_system = Some(GraphicsSystem::new(self.window.as_ref().unwrap()));
     }
 
     fn window_event(
